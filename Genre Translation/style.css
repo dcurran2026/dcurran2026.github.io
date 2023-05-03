@@ -1,0 +1,127 @@
+	body {
+		background-color: darkred;
+		padding: 0px;
+		margin: 0px;
+	}
+	#header div
+	{
+		display: inline-block;
+		margin: 0px 10px;
+	}
+	#header {
+		width: 100%;
+		margin: 0 auto;
+		background-color: black;
+		text-align: center;
+		font-family: Kanit, sans-serif;
+		color: white;
+	}
+	#header a {
+		text-decoration: none;
+	}
+	#header a:visited {
+		color: white;
+	}
+	#header a {
+		padding: 10px;
+		margin: 5px;
+	}
+	#homepage a.active {
+	background-color:lightgreen;
+	color:white;
+	}
+		#nav a {
+		text-decoration: none;
+		width: 230px;
+		height: 40px;
+		line-height: 40px;
+		display: inline-block;
+		text-align: center;	
+		color: white;
+		font-size:21px;
+	}
+	
+	#nav a:hover {
+	background-color: dodgerblue;
+	color: black;
+}
+
+#nav a.active {
+	z-index: 1;
+	}
+
+	#nav li {
+		background-color: black;
+			width: 230px;
+			text-align: center;
+			float:left;
+			line-height: 50px;
+			position: relative;
+			z-index: 1;
+		}
+		#nav a {
+			display: block;
+			text-decoration: none;
+		}
+			#nav ul ul {
+			position: absolute;
+			top: 40px; 
+			left: 0px;
+			visibility: hidden;
+		}
+			#nav li:hover > ul {
+			visibility: visible;
+		}
+				#nav ul ul ul {
+			left: 180px; 
+			top: 0px;
+		}
+				#navwrapper {
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			z-index:1;
+		}
+			#nav ul {
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+			#nav {
+		width:920px;
+		margin-left: auto;
+		margin-right: auto;	
+		font-size:0;
+	}
+	#nav-wrapper {
+		background-color: black;
+		height: 40px;
+	}
+	#header a {
+		padding: 5px;
+	}
+		#title {
+		margin: 0 auto;
+		text-align: center;
+		font-family: Kanit, sans-serif;
+		background-color: burlywood;
+		padding: 0px;
+	}
+		h1 {
+		font-size: 80px;
+		padding: 0px;
+		margin: 0px;
+		text-shadow: 5px 5px 10px black;
+		color: bisque;
+	}
+	#footer {
+		font-family: serif;
+		padding-top: 20px;
+		margin: 0 auto;
+		width: 100%;
+		background-color: black;
+		height: 40px;
+		color: white;
+		text-align: center;
+	}
